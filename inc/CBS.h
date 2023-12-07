@@ -111,7 +111,7 @@ private:
 	int num_of_agents;
 
 
-	vector<Path*> paths;
+	vector<Path*> paths;  // [WYX] 存储当前CTNode每个agent的path
 	vector<Path> paths_found_initially;  // contain initial paths found
 	// vector<MDD*> mdds_initially;  // contain initial paths found
 	vector < SingleAgentSolver* > search_engines;  // used to find (single) agents' paths and mdd

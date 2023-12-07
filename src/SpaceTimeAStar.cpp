@@ -182,7 +182,7 @@ Path SpaceTimeAStar::findPath(const CBSNode& node, const ConstraintTable& initia
 			Path path;
 			if (paths[agent]->size() > start_state.second)
 			    path.insert(path.begin(), paths[agent]->begin(), paths[agent]->begin() + start_state.second);
-            else // the start state is after the agent reaches its goal location
+            else // the start state is after the agent reaches its goal location [WYX] agent到终点之后还能够移动吗
             {
                 assert(start_state.first == goal_location);
                 path.insert(path.begin(), paths[agent]->begin(), paths[agent]->end());

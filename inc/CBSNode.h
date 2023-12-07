@@ -53,7 +53,7 @@ public:
 	boost::unordered_map<int, int> conflictGraph; //<edge index, weight> // TODO: This can be deleted.
 	CBSNode* parent;
 
-	list<pair<int, Path>> paths; // new paths
+	list<pair<int, Path>> paths; // new paths [WYX] 新更新的路径
 	list<Constraint> constraints; // new constraints
 
 

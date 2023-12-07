@@ -364,3 +364,19 @@ FodyWeavers.xsd
 /cmake-build-release/*
 /cmake-build-debug/*
 /CMakeFiles/*
+
+# CMake ================================
+bin/
+build/
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+out/
